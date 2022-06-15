@@ -1,0 +1,24 @@
+.Robo-Advisor{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    width: 50px;
+    height: 50px;
+    border-radius: 250%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1px;
+    background-color: #a11d24;
+    color:none;
+    margin-right: 6px;
+    background-image:url("download.png");
+    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+
+*{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
