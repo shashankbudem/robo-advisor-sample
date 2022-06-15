@@ -9,10 +9,13 @@ class MessageParser {
     parse(message) {
       const lowercase = message.toLowerCase()
    
-      if(/^([a-zA-Z]+)$/.test(lowercase)){
+      if(/^([a-zA-Z\s]+)$/.test(lowercase)){
         this.actionProvider.askEmail();
       }
-      if(lowercase.includes("@gmail.com")){
+      // if(lowercase.includes("@gmail.com")){
+      //   this.actionProvider.askAge();
+      // }
+      if(/^([a-zA-Z0-9]+@[a-zA-Z0-9]+.com)$/.test(lowercase)){
         this.actionProvider.askAge();
       }
       if(lowercase.includes("todos")){
