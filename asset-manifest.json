@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/robo-advisor-sample/static/css/main.b67e06b3.css",
+    "main.js": "/robo-advisor-sample/static/js/main.c9151958.js",
+    "static/js/787.eb3735df.chunk.js": "/robo-advisor-sample/static/js/787.eb3735df.chunk.js",
+    "static/media/background.png": "/robo-advisor-sample/static/media/background.c36b6063024b2a03c6fe.png",
+    "index.html": "/robo-advisor-sample/index.html",
+    "main.b67e06b3.css.map": "/robo-advisor-sample/static/css/main.b67e06b3.css.map",
+    "main.c9151958.js.map": "/robo-advisor-sample/static/js/main.c9151958.js.map",
+    "787.eb3735df.chunk.js.map": "/robo-advisor-sample/static/js/787.eb3735df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b67e06b3.css",
+    "static/js/main.c9151958.js"
+  ]
+}
