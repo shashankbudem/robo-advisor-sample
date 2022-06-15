@@ -9,7 +9,7 @@ class MessageParser {
     parse(message) {
       const lowercase = message.toLowerCase()
    
-      if(lowercase.includes("koushik")){
+      if(/^([a-zA-Z]+)$/.test(lowercase)){
         this.actionProvider.askEmail();
       }
       if(lowercase.includes("@gmail.com")){
