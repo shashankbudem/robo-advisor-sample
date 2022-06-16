@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Use the app 
 
 Try it on https://shashankbudem.github.io/robo-advisor-sample/
